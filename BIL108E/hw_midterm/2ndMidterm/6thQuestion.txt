@@ -1,0 +1,38 @@
+--if construct
+if expression
+   statements
+elseif expression
+   statements
+else
+   statements
+end
+
+'if construct' executes the inner 'statements’ if and only if the evaluation of the 'expression' is true
+It is generally used for constructing the logic flow of the program, deciding the action for certain conditions.
+
+
+--While
+while expression
+   statements
+end
+Its syntax is pretty similar to the if construct, but while is looping until the expression becomes false. We can say that while is the looping version of the if construct.
+While is used for repeating the statements on program structures and the expression is determined or incremented inside the loop. Each time the expression is checked before starting to the next iteration.
+
+
+--For
+for index = values
+   program statements
+          :
+end
+
+values can be
+initval:endval  (1:k)
+initval:step:endval  (1.0: -0.1: 0.0)
+valArray  ([1,5,8,17])
+
+'For construct’ is used for looping like 'while'. However, the execution loop count of the for statements are known before the looping starts. For is also used for the executing the statements repeatedly until the expression condition is terminated.
+As we can see from values examples, the condition expressions can be an array or a range sequence. At each iteration the range or array consumed with the given step or 1.
+
+--
+In general, if construct and while statements are like each other in terms of the expression evaluation and we can say that the while is the looping for of the if construct.
+For and while are also like each other in terms of the looping and iteration, but the for is much suitable when the number of iteration is known before the loop is started. While is more nicer when the number of iteration is determined inside the loop.
